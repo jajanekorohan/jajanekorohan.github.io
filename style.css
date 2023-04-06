@@ -28,10 +28,9 @@ nav {
   text-decoration: none;
 }
 
+
 .hero {
-  position: relative;
   height: 100vh;
-  padding: 180px 0 100px 0;
   background-image: url(top.png);
   background-position: center;
   background-size: cover;
@@ -39,7 +38,6 @@ nav {
   color: white;
   text-align: center;
 }
-
 
 .hero h1 {
   font-size: 3rem;
@@ -100,7 +98,7 @@ footer {
   right: 0;
   bottom: 0;
   background-color: #333;
-  height: 30px;
+  padding: 0.5rem;
   text-align: center;
   color: white;
 }
