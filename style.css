@@ -1,105 +1,84 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-}
-
+保存用2
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 120px;
-    background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  z-index: 100;
+  background-color: rgba(51, 51, 51, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
 }
 
-nav {
-    display: flex;
-    gap: 40px;
-    margin-right: 50px;
+header h1 {
+  color: white;
+  margin: 0;
 }
 
 .nav-link {
-    color: white;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    text-decoration: underline;
+  color: white;
+  text-decoration: none;
 }
 
 .hero {
-    padding: 180px 0 100px 0;
-    background-image: url(top.png);
-    background-size: cover;
-    color: white;
-    text-align: center;
+  padding: 180px 0 100px 0;
+  background-image: url(top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
 }
 
 .hero p {
-    font-size: 24px;
-    margin-top: 20px;
-    text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
 }
 
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-#about,
-#services,
-#contact {
-    padding: 80px 0;
-    width: 80%;
-    margin: 0 auto;
+section {
+  margin-bottom: 2rem;
+  width: 80%;
 }
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-    text-align: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+  text-align: center;
 }
 
-ul {
-    list-style: none;
-    font-size: 18px;
+section p,
+section ul,
+section li {
+  text-align: left;
 }
 
-li {
-    margin-bottom: 10px;
+form label {
+  display: block;
+  margin-bottom: 1rem;
 }
 
-p {
-    font-size: 18px;
-    text-align: left;
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  display: block;
+  width: 100%;
 }
 
-form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-textarea {
-    grid-column: 1 / 3;
-    height: 150px;
-    resize: none;
-}
-
-button {
-    grid-column: 1 / 3;
-    padding: 10px 0;
-    background-color: #fda200;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-footer {
-    padding: 20px 0;
-    background-color: black;
-    color: white;
-    text-align: center;
+form textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
 }
