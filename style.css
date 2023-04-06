@@ -29,15 +29,20 @@ nav {
 }
 
 .hero {
+  position: relative;
+  height: 100vh;
   padding: 180px 0 100px 0;
   background-image: url(top.png);
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
 }
 
+
 .hero h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 0;
 }
 
@@ -91,6 +96,13 @@ form textarea {
 }
 
 footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #333;
   padding: 1rem;
+  text-align: center;
+  color: white;
 }
+
