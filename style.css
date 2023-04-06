@@ -4,10 +4,31 @@ header {
   left: 0;
   right: 0;
   z-index: 100;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
   background-color: #333;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 180px 0 100px 0;
+  background-image: url(top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
 body {
@@ -18,64 +39,28 @@ body {
   padding: 0;
 }
 
-.company-name {
-  color: white;
-  margin: 0;
-}
-
-.hero {
-  background-image: url("top.png");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-text {
-  color: white;
-  text-align: center;
-}
-
-header, footer {
-    background-color: #333;
-    padding: 1rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 2rem;
-}
-
 section {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 h1, h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: .5rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: .5rem;
 }
 
 form label {
-    display: block;
-    margin-bottom: 1rem;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 form textarea {
-    width: 100%;
-    height: 5rem;
-    resize: none;
+  width: 100%;
+  height: 5rem;
+  resize: none;
+}
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+}
