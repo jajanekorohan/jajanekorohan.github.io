@@ -1,4 +1,4 @@
-/* ヘッダーを固定する */
+/* ヘッダーを固定 */
 header {
   position: fixed;
   top: 0;
@@ -10,14 +10,12 @@ header {
 /* 固定ヘッダーの下にコンテンツが隠れないようにする */
 body {
   padding-top: 4rem;
+  font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-    font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
 
 header, footer {
     background-color: #333;
