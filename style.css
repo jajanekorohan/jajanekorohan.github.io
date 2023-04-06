@@ -1,3 +1,17 @@
+/* ヘッダーを固定する */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/* 固定ヘッダーの下にコンテンツが隠れないようにする */
+body {
+  padding-top: 4rem;
+}
+
 body {
     font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     line-height: 1.6;
