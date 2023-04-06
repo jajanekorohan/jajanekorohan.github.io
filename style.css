@@ -1,13 +1,15 @@
-/* ヘッダーを固定 */
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333;
 }
 
-/* 固定ヘッダーの下にコンテンツが隠れないようにする */
 body {
   padding-top: 4rem;
   font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -16,6 +18,25 @@ body {
   padding: 0;
 }
 
+.company-name {
+  color: white;
+  margin: 0;
+}
+
+.hero {
+  background-image: url("top.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+}
 
 header, footer {
     background-color: #333;
