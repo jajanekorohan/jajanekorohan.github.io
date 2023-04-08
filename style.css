@@ -84,12 +84,6 @@ section li {
   text-align: left;
 }
 
-.services-item {
-  background-image: url(servise.png);
-  background-position: center;
-  background-size: cover;
-}
-
 
 form label {
   display: block;
