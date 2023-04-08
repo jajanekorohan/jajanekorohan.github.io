@@ -23,8 +23,14 @@ nav {
   gap: 1rem;
 }
 
-nav:hover{
-   background-color: rgba(255, 255, 255, 0.5);
+
+nav a {
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .nav-link {
@@ -109,5 +115,6 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
+  width: 100%;
 }
 
